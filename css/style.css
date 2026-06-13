@@ -56,6 +56,10 @@ nav{
     color:white;
 }
 
+.logo span{
+    color: rgb(249, 229, 44);
+}
+
 nav ul{
     list-style:none;
     display:flex;
@@ -146,9 +150,9 @@ main{
 .bio {
     background-color: #0f172a;
     color: #f8fafc;
-    padding: 20px;
+    padding: 80px;
     border-radius: 20px;
-    font-family: "Chelsea Market", system-ui;
+    font-family: "San Serif", system-ui;
 }
 
 
@@ -268,6 +272,9 @@ footer{
 footer p{
     opacity:.85;
 }
+.foooter-copyright span{
+    color: rgb(237, 237, 68);
+}
 
 
 @media(max-width:768px){
@@ -297,6 +304,9 @@ footer p{
         min-height: 50vh;
     }
     .about-container img {
-        width: 80%; 
+        width: 100%; 
+    }
+    .bio {
+         padding: 20px;
     }
 }
