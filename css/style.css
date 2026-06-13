@@ -259,13 +259,9 @@ main{
 
 footer{
     margin-top:80px;
-
     background:var(--dark);
-
     color:#cbd5e1;
-
     text-align:center;
-
     padding:40px 20px;
 }
 
